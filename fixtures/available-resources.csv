@@ -1,0 +1,4 @@
+resource,day,concurrent_capacity
+T1,4,1
+T2,4,1
+L1,4,1

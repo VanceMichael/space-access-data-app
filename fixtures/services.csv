@@ -1,0 +1,7 @@
+session,point,day,type,from,to,minutes,slots,resource
+S1,P1,4,advice,17:45,19:00,25,2,T1
+S2,P1,4,lab,18:30,20:00,40,2,L1
+S3,P2,4,identity,18:00,20:00,20,3,T1
+S4,P3,4,lab,18:00,19:30,40,1,L1
+S5,P2,4,advice,19:00,21:00,25,3,T2
+S6,P3,4,identity,18:10,19:30,20,2,T2

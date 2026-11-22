@@ -1,0 +1,4 @@
+referral,request,sessions,notice_day,status
+F1,R1,S1|S2,2,notified
+F2,R4,S3,2,notified
+F3,R8,S4,2,completed

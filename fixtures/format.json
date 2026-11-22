@@ -1,0 +1,98 @@
+{
+  "tables": {
+    "requests": [
+      "request",
+      "area",
+      "needed",
+      "available_from",
+      "available_to",
+      "combine",
+      "weight"
+    ],
+    "services": [
+      "session",
+      "point",
+      "day",
+      "type",
+      "from",
+      "to",
+      "minutes",
+      "slots",
+      "resource"
+    ],
+    "journeys": [
+      "from",
+      "to",
+      "minutes_from_18",
+      "minutes_before_18"
+    ],
+    "referrals": [
+      "referral",
+      "request",
+      "sessions",
+      "notice_day",
+      "status"
+    ],
+    "options": [
+      "option",
+      "sessions",
+      "cost",
+      "announce_day"
+    ],
+    "changes": [
+      "point",
+      "day",
+      "reported_day",
+      "first",
+      "last",
+      "status"
+    ],
+    "limits": [
+      "budget",
+      "min_area_coverage",
+      "disclosure_min_people"
+    ],
+    "populations": [
+      "area",
+      "eligible_population",
+      "responses",
+      "source_version"
+    ],
+    "review": [
+      "referral",
+      "day",
+      "result"
+    ],
+    "available-resources": [
+      "resource",
+      "day",
+      "concurrent_capacity"
+    ]
+  },
+  "links": [
+    [
+      "referrals",
+      "request",
+      "requests",
+      "request"
+    ],
+    [
+      "review",
+      "referral",
+      "referrals",
+      "referral"
+    ],
+    [
+      "services",
+      "resource",
+      "available-resources",
+      "resource"
+    ],
+    [
+      "requests",
+      "area",
+      "populations",
+      "area"
+    ]
+  ]
+}

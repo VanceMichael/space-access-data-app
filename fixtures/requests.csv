@@ -1,0 +1,9 @@
+request,area,needed,available_from,available_to,combine,weight
+R1,A,advice|lab,18:00,20:00,same,3
+R2,A,advice,18:15,21:00,split,2
+R3,B,advice|lab,17:00,21:15,split,4
+R4,B,identity,18:10,19:40,same,5
+R5,C,lab,18:00,19:00,split,8
+R6,C,advice|identity,17:00,19:45,split,6
+R7,A,identity,18:00,19:30,same,2
+R8,B,lab,18:00,19:20,same,1

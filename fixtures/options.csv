@@ -1,0 +1,4 @@
+option,sessions,cost,announce_day
+O1,S4|S6,50,3
+O2,S3|S5,55,3
+O3,S1|S2,60,3
