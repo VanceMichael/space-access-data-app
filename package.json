@@ -8,6 +8,8 @@
   },
   "scripts": {
     "test": "node --test",
-    "check:materials": "node tools/check-materials.mjs"
+    "check:materials": "node tools/check-materials.mjs",
+    "review": "node tools/review.mjs fixtures dist",
+    "weekly": "node tools/weekly.mjs fixtures examples/weekly/changes.csv examples/weekly/review.csv dist"
   }
 }
